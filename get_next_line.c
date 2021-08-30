@@ -6,13 +6,13 @@
 /*   By: lbatista <lbatista@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/16 11:34:17 by lbatista          #+#    #+#             */
-/*   Updated: 2021/08/30 13:07:17 by lbatista         ###   ########.fr       */
+/*   Updated: 2021/08/30 15:52:51 by lbatista         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-static void	free_str(char **ptr)
+static void	free_ptr(char **ptr)
 {
 	free(*ptr);
 	*ptr = NULL;
@@ -50,7 +50,7 @@ static int	read_file(int fd, char **buffer, char **backup)
 		*backup = ft_strjoin(t_free, *buffer);
 		free_ptr(&t_free);
 	}
-	return (bytes_read);
+	return (b_read);
 }
 
 static char	*get_line(int fd, char **buffer, char **backup)
@@ -90,7 +90,7 @@ char	*get_next_line(int fd)
 		return (NULL);
 	if (!backup[fd])
 		backup[fd] = ft_strdup("");
-	line = read(fd, &buffer, &backup);
+	line = get_line(fd, &buffer, &backup[fd]);
 	free_ptr(&buffer);
 	return (line);
 }
