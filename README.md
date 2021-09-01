@@ -1,2 +1,2 @@
 # GNL
-Code studies Get Mext Line 42SP
+Code studies Get Next Line 42SP
