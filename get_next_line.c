@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbatista <lbatista@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: lmoraesdev <lmoraesdev@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/16 11:34:17 by lbatista          #+#    #+#             */
-/*   Updated: 2021/08/30 15:52:51 by lbatista         ###   ########.fr       */
+/*   Updated: 2021/09/13 23:19:38 by lmoraesdev       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,7 +79,7 @@ static char	*get_line(int fd, char **buffer, char **backup)
 
 char	*get_next_line(int fd)
 {
-	static char		*backup[OPEN_MAX + 1];
+	static char		*backup[OPEN_MAX];
 	char			*buffer;
 	char			*line;
 

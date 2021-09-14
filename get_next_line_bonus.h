@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_bonus.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbatista <lbatista@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: lmoraesdev <lmoraesdev@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/30 13:05:28 by lbatista          #+#    #+#             */
-/*   Updated: 2021/08/30 13:05:30 by lbatista         ###   ########.fr       */
+/*   Updated: 2021/09/13 23:19:23 by lmoraesdev       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 
 # include <unistd.h>
 # include <stdlib.h>
-# include <limits.h>
 
 # ifndef OPEN_MAX
 #  define OPEN_MAX 256

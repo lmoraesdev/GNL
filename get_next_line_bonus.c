@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lbatista <lbatista@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: lmoraesdev <lmoraesdev@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/30 13:07:34 by lbatista          #+#    #+#             */
-/*   Updated: 2021/09/01 15:06:32 by lbatista         ###   ########.fr       */
+/*   Updated: 2021/09/13 23:19:58 by lmoraesdev       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 static void	free_ptr(char **ptr)
 {
@@ -79,7 +79,7 @@ static char	*get_line(int fd, char **buffer, char **backup)
 
 char	*get_next_line(int fd)
 {
-	static char		*backup[OPEN_MAX + 1];
+	static char		*backup[OPEN_MAX];
 	char			*buffer;
 	char			*line;
 
