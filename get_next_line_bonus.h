@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_bonus.h                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lmoraesdev <lmoraesdev@student.42.fr>      +#+  +:+       +#+        */
+/*   By: lbatista <lbatista@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/30 13:05:28 by lbatista          #+#    #+#             */
-/*   Updated: 2021/09/13 23:19:23 by lmoraesdev       ###   ########.fr       */
+/*   Updated: 2021/09/19 14:54:03 by lbatista         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
