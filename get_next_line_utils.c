@@ -6,11 +6,11 @@
 /*   By: lbatista <lbatista@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/16 11:34:23 by lbatista          #+#    #+#             */
-/*   Updated: 2021/08/30 15:46:46 by lbatista         ###   ########.fr       */
+/*   Updated: 2021/09/18 21:19:21 by lbatista         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line_bonus.h"
+#include "get_next_line.h"
 
 size_t	ft_strlen(const char *s)
 {
