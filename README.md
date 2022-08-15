@@ -22,7 +22,7 @@
 
 > _The aim of this project is to make you code a function that returns a line ending with a newline, read from a file descriptor._
 
-For detailed information, refer to the [**subject of this project**](https://github.com/appinha/42cursus/tree/master/_PDFs).
+For detailed information, refer to the [**subject of this project**].
 
 	🚀 TLDR: this project consists of coding a function that returns one line at a time from a text file.
 
@@ -38,15 +38,8 @@ _Note: Files suffixed with *_bonus* are exact copies of corresponding files._
 
 **Functions in `get_next_line.c`**
 
-* `ft_free_null`	- free and null a pointer.
-* `ft_cpy_exc_buff`	- copy read excess (string after \n) to static variable (buffer).
-* `ft_buff2line`	- copy read line from buffer.
 * `get_next_line`	- main function.
 
-**Functions in `get_next_line_utils.c`**
-
-* `ft_strlen`		- find length of string.
-* `ft_strdup`		- save a copy of a string (with malloc).
 
 ## 🛠️ Usage
 
