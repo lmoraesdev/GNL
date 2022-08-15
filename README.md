@@ -31,7 +31,6 @@ For detailed information, refer to the [**subject of this project**](https://git
 `@root`
 
 * [**📁 get_next_line:**](get_next_line/) source code developed for the project.
-* [**📁 testing:**](testing/) my own testing program.
 
 `@/get_next_line/`
 
